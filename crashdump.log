@@ -1,0 +1,466 @@
+2020/11/03 21:28:48 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff615695583 RSP: 0000002f12d9f410 RBP: 0000000000000000
+
+	0x00007ff615695583 : get_val + 0x43 (C:\Users\000\Desktop\auriga-master\src\map\script.c line 2372)
+	0x00007ff615671b5a : buildin_callsub + 0x3a (C:\Users\000\Desktop\auriga-master\src\map\script.c line 4725)
+	0x00007ff61569c06b : run_func + 0xdb (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3179)
+	0x00007ff61569c74f : run_script_main + 0x1af (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3417)
+	0x00007ff61569c458 : run_script + 0x198 (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3266)
+	0x00007ff61564b238 : npc_scriptcont + 0x78 (C:\Users\000\Desktop\auriga-master\src\map\npc.c line 1017)
+	0x00007ff6155d3a3a : clif_parse_NpcSelectMenu + 0xaa (C:\Users\000\Desktop\auriga-master\src\map\clif.c line 23714)
+	0x00007ff6155f392f : clif_parse + 0x1bf (C:\Users\000\Desktop\auriga-master\src\map\clif.c line 27077)
+	0x00007ff61558f189 : do_parsepacket + 0x119 (C:\Users\000\Desktop\auriga-master\src\common\socket.c line 1060)
+	0x00007ff61557a498 : main_sub + 0x138 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 457)
+	0x00007ff61557a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff61574d4c4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/03 22:04:34 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff615695583 RSP: 000000a3af8ffab0 RBP: 0000000000000000
+
+	0x00007ff615695583 : get_val + 0x43 (C:\Users\000\Desktop\auriga-master\src\map\script.c line 2372)
+	0x00007ff615671b5a : buildin_callsub + 0x3a (C:\Users\000\Desktop\auriga-master\src\map\script.c line 4725)
+	0x00007ff61569c06b : run_func + 0xdb (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3179)
+	0x00007ff61569c74f : run_script_main + 0x1af (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3417)
+	0x00007ff61569c458 : run_script + 0x198 (C:\Users\000\Desktop\auriga-master\src\map\script.c line 3266)
+	0x00007ff61564b238 : npc_scriptcont + 0x78 (C:\Users\000\Desktop\auriga-master\src\map\npc.c line 1017)
+	0x00007ff6155d3a3a : clif_parse_NpcSelectMenu + 0xaa (C:\Users\000\Desktop\auriga-master\src\map\clif.c line 23714)
+	0x00007ff6155f392f : clif_parse + 0x1bf (C:\Users\000\Desktop\auriga-master\src\map\clif.c line 27077)
+	0x00007ff61558f189 : do_parsepacket + 0x119 (C:\Users\000\Desktop\auriga-master\src\common\socket.c line 1060)
+	0x00007ff61557a498 : main_sub + 0x138 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 457)
+	0x00007ff61557a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff61574d4c4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 18:51:35 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff7a0fba886 RSP: 0000004d85b9dc90 RBP: 0000000000002401
+
+	0x00007ff7a0fba886 : luaH_getn + 0x2d6
+	0x00007ff7a0fba98a : luaH_getn + 0x3da
+	0x00007ff7a0fba3ca : luaH_next + 0x2a
+	0x00007ff7a0facb75 : lua_next + 0x45
+	0x00007ff7a0eb4181 : luafunc_InsertRandopt + 0x41 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 546)
+	0x00007ff7a0fae83d : luaD_precall + 0x4dd
+	0x00007ff7a0fc250d : luaV_execute + 0x1e3d
+	0x00007ff7a0fae937 : luaD_call + 0xa7
+	0x00007ff7a0fad1a3 : luaA_pushobject + 0x283
+	0x00007ff7a0faefc3 : luaD_rawrunprotected + 0x83
+	0x00007ff7a0faea06 : luaD_pcall + 0x86
+	0x00007ff7a0fac75d : lua_pcall + 0xbd
+	0x00007ff7a0eb4b25 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff7a0eb6867 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff7a0e0a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff7a0e0a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff7a0fdd604 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 18:51:46 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff7a0fba886 RSP: 000000f601cfded0 RBP: 0000000000002401
+
+	0x00007ff7a0fba886 : luaH_getn + 0x2d6
+	0x00007ff7a0fba98a : luaH_getn + 0x3da
+	0x00007ff7a0fba3ca : luaH_next + 0x2a
+	0x00007ff7a0facb75 : lua_next + 0x45
+	0x00007ff7a0eb4181 : luafunc_InsertRandopt + 0x41 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 546)
+	0x00007ff7a0fae83d : luaD_precall + 0x4dd
+	0x00007ff7a0fc250d : luaV_execute + 0x1e3d
+	0x00007ff7a0fae937 : luaD_call + 0xa7
+	0x00007ff7a0fad1a3 : luaA_pushobject + 0x283
+	0x00007ff7a0faefc3 : luaD_rawrunprotected + 0x83
+	0x00007ff7a0faea06 : luaD_pcall + 0x86
+	0x00007ff7a0fac75d : lua_pcall + 0xbd
+	0x00007ff7a0eb4b25 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff7a0eb6867 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff7a0e0a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff7a0e0a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff7a0fdd604 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:12:12 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff7f5aba8e6 RSP: 000000a90a5edfd0 RBP: 0000000000002401
+
+	0x00007ff7f5aba8e6 : luaH_getn + 0x2d6
+	0x00007ff7f5aba9ea : luaH_getn + 0x3da
+	0x00007ff7f5aba42a : luaH_next + 0x2a
+	0x00007ff7f5aacbd5 : lua_next + 0x45
+	0x00007ff7f59b41a1 : luafunc_InsertRandopt + 0x61 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 548)
+	0x00007ff7f5aae89d : luaD_precall + 0x4dd
+	0x00007ff7f5ac256d : luaV_execute + 0x1e3d
+	0x00007ff7f5aae997 : luaD_call + 0xa7
+	0x00007ff7f5aad203 : luaA_pushobject + 0x283
+	0x00007ff7f5aaf023 : luaD_rawrunprotected + 0x83
+	0x00007ff7f5aaea66 : luaD_pcall + 0x86
+	0x00007ff7f5aac7bd : lua_pcall + 0xbd
+	0x00007ff7f59b4b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff7f59b68c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff7f590a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff7f590a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff7f5add664 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:14:30 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff658f2a449 RSP: 000000f26c8fde00 RBP: 0000000000002401
+
+	0x00007ff658f2a449 : luaH_next + 0x49
+	0x00007ff658f1cbd5 : lua_next + 0x45
+	0x00007ff658e241a9 : luafunc_InsertRandopt + 0x69 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff658f1e89d : luaD_precall + 0x4dd
+	0x00007ff658f3256d : luaV_execute + 0x1e3d
+	0x00007ff658f1e997 : luaD_call + 0xa7
+	0x00007ff658f1d203 : luaA_pushobject + 0x283
+	0x00007ff658f1f023 : luaD_rawrunprotected + 0x83
+	0x00007ff658f1ea66 : luaD_pcall + 0x86
+	0x00007ff658f1c7bd : lua_pcall + 0xbd
+	0x00007ff658e24b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff658e268c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff658d7a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff658d7a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff658f4d664 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:14:40 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff658f2a449 RSP: 00000060692fde10 RBP: 0000000000002401
+
+	0x00007ff658f2a449 : luaH_next + 0x49
+	0x00007ff658f1cbd5 : lua_next + 0x45
+	0x00007ff658e241a9 : luafunc_InsertRandopt + 0x69 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff658f1e89d : luaD_precall + 0x4dd
+	0x00007ff658f3256d : luaV_execute + 0x1e3d
+	0x00007ff658f1e997 : luaD_call + 0xa7
+	0x00007ff658f1d203 : luaA_pushobject + 0x283
+	0x00007ff658f1f023 : luaD_rawrunprotected + 0x83
+	0x00007ff658f1ea66 : luaD_pcall + 0x86
+	0x00007ff658f1c7bd : lua_pcall + 0xbd
+	0x00007ff658e24b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff658e268c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff658d7a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff658d7a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff658f4d664 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:15:58 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff6a453a449 RSP: 0000008fdf0fe1d0 RBP: 0000000000002401
+
+	0x00007ff6a453a449 : luaH_next + 0x49
+	0x00007ff6a452cbd5 : lua_next + 0x45
+	0x00007ff6a44341a9 : luafunc_InsertRandopt + 0x69 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff6a452e89d : luaD_precall + 0x4dd
+	0x00007ff6a454256d : luaV_execute + 0x1e3d
+	0x00007ff6a452e997 : luaD_call + 0xa7
+	0x00007ff6a452d203 : luaA_pushobject + 0x283
+	0x00007ff6a452f023 : luaD_rawrunprotected + 0x83
+	0x00007ff6a452ea66 : luaD_pcall + 0x86
+	0x00007ff6a452c7bd : lua_pcall + 0xbd
+	0x00007ff6a4434b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff6a44368c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff6a438a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff6a438a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff6a455d664 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:18:24 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff6db62a8e6 RSP: 000000046e74e130 RBP: 0000000000002401
+
+	0x00007ff6db62a8e6 : luaH_getn + 0x2d6
+	0x00007ff6db62a9ea : luaH_getn + 0x3da
+	0x00007ff6db62a42a : luaH_next + 0x2a
+	0x00007ff6db61cbd5 : lua_next + 0x45
+	0x00007ff6db5241a1 : luafunc_InsertRandopt + 0x61 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff6db61e89d : luaD_precall + 0x4dd
+	0x00007ff6db63256d : luaV_execute + 0x1e3d
+	0x00007ff6db61e997 : luaD_call + 0xa7
+	0x00007ff6db61d203 : luaA_pushobject + 0x283
+	0x00007ff6db61f023 : luaD_rawrunprotected + 0x83
+	0x00007ff6db61ea66 : luaD_pcall + 0x86
+	0x00007ff6db61c7bd : lua_pcall + 0xbd
+	0x00007ff6db524b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff6db5268c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff6db47a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff6db47a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff6db64d664 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:20:35 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff7886ba8c6 RSP: 000000466c17dc60 RBP: 0000000000002401
+
+	0x00007ff7886ba8c6 : luaH_getn + 0x2d6
+	0x00007ff7886ba9ca : luaH_getn + 0x3da
+	0x00007ff7886ba40a : luaH_next + 0x2a
+	0x00007ff7886acbb5 : lua_next + 0x45
+	0x00007ff7885b41a1 : luafunc_InsertRandopt + 0x61 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff7886ae87d : luaD_precall + 0x4dd
+	0x00007ff7886c254d : luaV_execute + 0x1e3d
+	0x00007ff7886ae977 : luaD_call + 0xa7
+	0x00007ff7886ad1e3 : luaA_pushobject + 0x283
+	0x00007ff7886af003 : luaD_rawrunprotected + 0x83
+	0x00007ff7886aea46 : luaD_pcall + 0x86
+	0x00007ff7886ac79d : lua_pcall + 0xbd
+	0x00007ff7885b4b65 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff7885b68a7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff78850a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff78850a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff7886dd644 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:22:35 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff752c8a8c6 RSP: 0000007e6d3addb0 RBP: 0000000000002401
+
+	0x00007ff752c8a8c6 : luaH_getn + 0x2d6
+	0x00007ff752c8a9ca : luaH_getn + 0x3da
+	0x00007ff752c8a40a : luaH_next + 0x2a
+	0x00007ff752c7cbb5 : lua_next + 0x45
+	0x00007ff752b841a1 : luafunc_InsertRandopt + 0x61 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff752c7e87d : luaD_precall + 0x4dd
+	0x00007ff752c9254d : luaV_execute + 0x1e3d
+	0x00007ff752c7e977 : luaD_call + 0xa7
+	0x00007ff752c7d1e3 : luaA_pushobject + 0x283
+	0x00007ff752c7f003 : luaD_rawrunprotected + 0x83
+	0x00007ff752c7ea46 : luaD_pcall + 0x86
+	0x00007ff752c7c79d : lua_pcall + 0xbd
+	0x00007ff752b84b65 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff752b868a7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff752ada405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff752ada2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff752cad644 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/10 21:30:01 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff783dea8f6 RSP: 000000ad87cfe2a0 RBP: 0000000000002401
+
+	0x00007ff783dea8f6 : luaH_getn + 0x2d6
+	0x00007ff783dea9fa : luaH_getn + 0x3da
+	0x00007ff783dea43a : luaH_next + 0x2a
+	0x00007ff783ddcbe5 : lua_next + 0x45
+	0x00007ff783ce41a1 : luafunc_InsertRandopt + 0x61 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 549)
+	0x00007ff783dde8ad : luaD_precall + 0x4dd
+	0x00007ff783df257d : luaV_execute + 0x1e3d
+	0x00007ff783dde9a7 : luaD_call + 0xa7
+	0x00007ff783ddd213 : luaA_pushobject + 0x283
+	0x00007ff783ddf033 : luaD_rawrunprotected + 0x83
+	0x00007ff783ddea76 : luaD_pcall + 0x86
+	0x00007ff783ddc7cd : lua_pcall + 0xbd
+	0x00007ff783ce4b95 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff783ce68d7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff783c3a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff783c3a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff783e0d674 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007ff908217c24 : BaseThreadInitThunk + 0x14
+	0x00007ff909eecea1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/16 00:50:29 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff61b7fa499 RSP: 000000f3f6bcdca0 RBP: 0000000000002401
+
+	0x00007ff61b7fa499 : luaH_next + 0x49
+	0x00007ff61b7ecc25 : lua_next + 0x45
+	0x00007ff61b6f4189 : luafunc_InsertRandopt + 0x49 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 542)
+	0x00007ff61b7ee8ed : luaD_precall + 0x4dd
+	0x00007ff61b8025bd : luaV_execute + 0x1e3d
+	0x00007ff61b7ee9e7 : luaD_call + 0xa7
+	0x00007ff61b7ed253 : luaA_pushobject + 0x283
+	0x00007ff61b7ef073 : luaD_rawrunprotected + 0x83
+	0x00007ff61b7eeab6 : luaD_pcall + 0x86
+	0x00007ff61b7ec80d : lua_pcall + 0xbd
+	0x00007ff61b6f4b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff61b6f68c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff61b64a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff61b64a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff61b81d6b4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 00:05:47 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff71bbba4b9 RSP: 000000f104d1e0c0 RBP: 0000000000002401
+
+	0x00007ff71bbba4b9 : luaH_next + 0x49
+	0x00007ff71bbacc45 : lua_next + 0x45
+	0x00007ff71bab4189 : luafunc_InsertRandopt + 0x49 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 542)
+	0x00007ff71bbae90d : luaD_precall + 0x4dd
+	0x00007ff71bbc25dd : luaV_execute + 0x1e3d
+	0x00007ff71bbaea07 : luaD_call + 0xa7
+	0x00007ff71bbad273 : luaA_pushobject + 0x283
+	0x00007ff71bbaf093 : luaD_rawrunprotected + 0x83
+	0x00007ff71bbaead6 : luaD_pcall + 0x86
+	0x00007ff71bbac82d : lua_pcall + 0xbd
+	0x00007ff71bab4ba5 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff71bab68e7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff71ba0a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff71ba0a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff71bbdd6d4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 00:14:59 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff768e1a4b9 RSP: 00000007cfcfe260 RBP: 0000000000002401
+
+	0x00007ff768e1a4b9 : luaH_next + 0x49
+	0x00007ff768e0cc45 : lua_next + 0x45
+	0x00007ff768d14189 : luafunc_InsertRandopt + 0x49 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 546)
+	0x00007ff768e0e90d : luaD_precall + 0x4dd
+	0x00007ff768e225dd : luaV_execute + 0x1e3d
+	0x00007ff768e0ea07 : luaD_call + 0xa7
+	0x00007ff768e0d273 : luaA_pushobject + 0x283
+	0x00007ff768e0f093 : luaD_rawrunprotected + 0x83
+	0x00007ff768e0ead6 : luaD_pcall + 0x86
+	0x00007ff768e0c82d : lua_pcall + 0xbd
+	0x00007ff768d14ba5 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff768d168e7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff768c6a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff768c6a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff768e3d6d4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 15:49:23 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff67d6ea936 RSP: 00000005a453dc80 RBP: 0000000000002401
+
+	0x00007ff67d6ea936 : luaH_getn + 0x2d6
+	0x00007ff67d6eaa3a : luaH_getn + 0x3da
+	0x00007ff67d6ea47a : luaH_next + 0x2a
+	0x00007ff67d6dcc25 : lua_next + 0x45
+	0x00007ff67d5e41e4 : luafunc_InsertRandopt + 0xa4 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 550)
+	0x00007ff67d6de8ed : luaD_precall + 0x4dd
+	0x00007ff67d6f25bd : luaV_execute + 0x1e3d
+	0x00007ff67d6de9e7 : luaD_call + 0xa7
+	0x00007ff67d6dd253 : luaA_pushobject + 0x283
+	0x00007ff67d6df073 : luaD_rawrunprotected + 0x83
+	0x00007ff67d6deab6 : luaD_pcall + 0x86
+	0x00007ff67d6dc80d : lua_pcall + 0xbd
+	0x00007ff67d5e4b85 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff67d5e68c7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff67d53a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff67d53a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff67d70d6b4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 15:50:13 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff6cfcaa4a9 RSP: 00000036b10fe3e0 RBP: 0000000000002401
+
+	0x00007ff6cfcaa4a9 : luaH_next + 0x49
+	0x00007ff6cfc9cc35 : lua_next + 0x45
+	0x00007ff6cfba4189 : luafunc_InsertRandopt + 0x49 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 542)
+	0x00007ff6cfc9e8fd : luaD_precall + 0x4dd
+	0x00007ff6cfcb25cd : luaV_execute + 0x1e3d
+	0x00007ff6cfc9e9f7 : luaD_call + 0xa7
+	0x00007ff6cfc9d263 : luaA_pushobject + 0x283
+	0x00007ff6cfc9f083 : luaD_rawrunprotected + 0x83
+	0x00007ff6cfc9eac6 : luaD_pcall + 0x86
+	0x00007ff6cfc9c81d : lua_pcall + 0xbd
+	0x00007ff6cfba4b95 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff6cfba68d7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff6cfafa405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff6cfafa2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff6cfccd6c4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 15:54:15 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff6c6e2a4a9 RSP: 00000011b41bdf60 RBP: 0000000000002401
+
+	0x00007ff6c6e2a4a9 : luaH_next + 0x49
+	0x00007ff6c6e1cc35 : lua_next + 0x45
+	0x00007ff6c6d24189 : luafunc_InsertRandopt + 0x49 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 542)
+	0x00007ff6c6e1e8fd : luaD_precall + 0x4dd
+	0x00007ff6c6e325cd : luaV_execute + 0x1e3d
+	0x00007ff6c6e1e9f7 : luaD_call + 0xa7
+	0x00007ff6c6e1d263 : luaA_pushobject + 0x283
+	0x00007ff6c6e1f083 : luaD_rawrunprotected + 0x83
+	0x00007ff6c6e1eac6 : luaD_pcall + 0x86
+	0x00007ff6c6e1c81d : lua_pcall + 0xbd
+	0x00007ff6c6d24b95 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff6c6d268d7 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff6c6c7a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff6c6c7a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff6c6e4d6c4 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------
+2020/11/17 18:37:19 crashed by ACCESS_VIOLATION.
+	Auriga-1431 [TXT]
+	map-server.exe 
+	RIP: 00007ff71fe4a459 RSP: 0000000ae00fe240 RBP: 0000000000002401
+
+	0x00007ff71fe4a459 : luaH_next + 0x49
+	0x00007ff71fe3cbe5 : lua_next + 0x45
+	0x00007ff71fd441f4 : luafunc_InsertRandopt + 0xb4 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 554)
+	0x00007ff71fe3e8ad : luaD_precall + 0x4dd
+	0x00007ff71fe5257d : luaV_execute + 0x1e3d
+	0x00007ff71fe3e9a7 : luaD_call + 0xa7
+	0x00007ff71fe3d213 : luaA_pushobject + 0x283
+	0x00007ff71fe3f033 : luaD_rawrunprotected + 0x83
+	0x00007ff71fe3ea76 : luaD_pcall + 0x86
+	0x00007ff71fe3c7cd : lua_pcall + 0xbd
+	0x00007ff71fd44b45 : luascript_config_read + 0x175 (C:\Users\000\Desktop\auriga-master\src\map\luascript.c line 357)
+	0x00007ff71fd46887 : do_init + 0x3c7 (C:\Users\000\Desktop\auriga-master\src\map\map.c line 3160)
+	0x00007ff71fc9a405 : main_sub + 0xa5 (C:\Users\000\Desktop\auriga-master\src\common\core.c line 443)
+	0x00007ff71fc9a2dd : main + 0x1dd (C:\Users\000\Desktop\auriga-master\src\common\core.c line 406)
+	0x00007ff71fe6d674 : __scrt_common_main_seh + 0x10c (d:\agent\_work\4\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl line 288)
+	0x00007fffe9287c24 : BaseThreadInitThunk + 0x14
+	0x00007fffeaf4d4d1 : RtlUserThreadStart + 0x21
+
+----------------------------------------

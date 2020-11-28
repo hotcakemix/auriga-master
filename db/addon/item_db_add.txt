@@ -1,0 +1,336 @@
+//item_db.txtへオーバーライド
+//ID,Name,Jname,Type,Price,Sell,Weight,ATK,DEF,Range,Slot,Job,Gender,Loc,wLV,eLV,View,Refine,{UseScript},{EquipScript}
+//オリジナル35000から
+35000,ori,ためし,5,,,0,,,1,0,1000333311,2,131072,0,1,,0,{},{ bonus2 bAddSkillDamageRate,62,5; bonus bStr,BaseLevel*5; }
+
+35010,ori,アーキウム,3,,,0,,,1,0,,2,,0,1,,0,{},{}
+35011,ori,フィデシウム,3,,,0,,,1,0,,2,,0,1,,0,{},{}
+35012,ori,祝福石の欠片,3,,,0,,,1,0,,2,,0,1,,0,{},{}
+35013,ori,祝福石,3,,,0,,,1,0,,2,,0,1,,0,{},{}
+35014,ori,箱,3,,,0,,,1,0,,2,,0,1,,0,{},{ getoptitem　-3 1 0 0 0 0 0 0 2510 }
+
+
+//エンブレム38000
+//ナイト　RK
+38000,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38001,ori,LK槍,4,,,0,,,,,130,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,56,BaseLevel*2; bonus2 bAddSkillDamageRate,397,BaseLevel*2; }
+
+38005,ori,RK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus bStr,2; }
+38006,ori,RK竜,4,,,0,,,,,130,,2097152,,,,,{},{ bonus bStr,2; }
+38007,ori,RKルーン,4,,,0,,,,,130,,2097152,,,,,{},{ bonus bStr,2; }
+//クルセ　RG
+38010,ori,PL盾,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38011,ori,PL槍,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38015,ori,RG槍,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38016,ori,RG聖盾,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//プリ　AB
+38020,ori,HP破魔,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38021,ori,HP癒,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38025,ori,AB破魔,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38026,ori,AB癒,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//モンク　SU
+38030,ori,CP気功,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38031,ori,CP拳,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38035,ori,SU地雷,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38036,ori,SU羅刹,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38037,ori,SU獅子,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//ブラックスミス　MC
+38040,ori,WSカート,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38045,ori,MC斧,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38046,ori,MCギア,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//クリエ　GN
+38050,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38055,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38056,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38057,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//ハンター　RA
+38060,ori,SN弓,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38061,ori,SN罠,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38065,ori,RA狼,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38066,ori,RA罠,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//バード・ダンサー　MW
+38000,ori,CG楽器・踊,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38000,ori,MW楽器・踊,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38000,ori,MW歌,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+//アサ　GX
+38000,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38000,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+38000,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+38000,ori,LK剣,4,,,0,,,,,131202,,2097152,,,,,{},{ bonus2 bAddSkillDamageRate,7,BaseLevel*3; bonus2 bAddSkillDamageRate,5,BaseLevel*3; bonus2 bAddSkillDamageRate,62,BaseLevel*3; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//エンブレム強化39000-
+//エンブレムstr
+39000,ori,STR強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,2; }
+39001,ori,STR強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,4; }
+39002,ori,STR強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,6; bonus bAddShortWeaponDamage,5; }
+39003,ori,STR強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,8; bonus bAddShortWeaponDamage,5; }
+39004,ori,STR強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,10; bonus bAddShortWeaponDamage,5; }
+39005,ori,STR強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,12; bonus bAddShortWeaponDamage,10; }
+39006,ori,STR強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,14; bonus bAddShortWeaponDamage,10; }
+39007,ori,STR強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,16; bonus bAddShortWeaponDamage,10; }
+39008,ori,STR強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,18; bonus bAddShortWeaponDamage,15; }
+39009,ori,STR強化+10,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,20; bonus bAddShortWeaponDamage,20; }
+
+//エンブレムAGI
+39010,ori,AGI強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bAgi,2; }
+39011,ori,AGI強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bAgi,4; }
+39012,ori,AGI強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,6; bonus bAspdAddRate,10; }
+39013,ori,AGI強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,8; bonus bAspdAddRate,10; }
+39014,ori,AGI強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,10; bonus bAspdAddRate,10; }
+39015,ori,AGI強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,12; bonus bAspdAddRate,15; }
+39016,ori,AGI強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,14; bonus bAspdAddRate,15; }
+39017,ori,AGI強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,16; bonus bAspdAddRate,15; }
+39018,ori,AGI強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,18; bonus bAspdAddRate,20; }
+39019,ori,AGI強化+10,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,20; bonus bAspdAddRate,25; }
+
+//エンブレムVIT
+39020,ori,VIT強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,2; }
+39021,ori,VIT強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,4; }
+39022,ori,VIT強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,6; bonus bMaxHPrate,10; }
+39023,ori,VIT強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,8; bonus bMaxHPrate,10; }
+39024,ori,VIT強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,10; bonus bMaxHPrate,10; }
+39025,ori,VIT強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,12; bonus bMaxHPrate,15; }
+39026,ori,VIT強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,14; bonus bMaxHPrate,15; }
+39027,ori,VIT強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,16; bonus bMaxHPrate,15; }
+39028,ori,VIT強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bVit,18; bonus bMaxHPrate,20; }
+39029,ori,VIT強化+10,4,,,0,,,,,1000333311,,2097152,,,,,{},{ bonus bVit,20; bonus bMaxHPrate,25; }
+
+//エンブレムINT
+39030,ori,INT強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39031,ori,INT強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39032,ori,INT強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39033,ori,INT強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39034,ori,INT強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39035,ori,INT強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39036,ori,INT強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39037,ori,INT強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39038,ori,INT強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39039,ori,INT強化+10,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+
+//エンブレムDEX
+39040,ori,DEX強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39041,ori,DEX強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39042,ori,DEX強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39043,ori,DEX強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39044,ori,DEX強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39045,ori,DEX強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39046,ori,DEX強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39047,ori,DEX強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39048,ori,DEX強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39049,ori,DEX強化+10,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+
+//エンブレムLUK
+39050,ori,LUK強化+1,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,100; }
+39051,ori,LUK強化+2,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39052,ori,LUK強化+3,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39053,ori,LUK強化+4,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39054,ori,LUK強化+5,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39055,ori,LUK強化+6,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39056,ori,LUK強化+7,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39057,ori,LUK強化+8,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39058,ori,LUK強化+9,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+39059,ori,LUK強化+10,6,,,0,,,,,,,3145728,,,,,{},{ bonus bStr,1; }
+
+//アーク強化40000
+40000,ori,アーク強化+1,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,2; bonus2 bIgnoreDefRace,Rct_NonBoss,2; bonus2 bIgnoreMdefRace,Rct_Boss,2; bonus2 bIgnoreMdefRace,Rct_NonBoss,2; }
+40001,ori,アーク強化+2,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,4; bonus2 bIgnoreDefRace,Rct_NonBoss,4; bonus2 bIgnoreMdefRace,Rct_Boss,4; bonus2 bIgnoreMdefRace,Rct_NonBoss,4; }
+40002,ori,アーク強化+3,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,6; bonus2 bIgnoreDefRace,Rct_NonBoss,6; bonus2 bIgnoreMdefRace,Rct_Boss,6; bonus2 bIgnoreMdefRace,Rct_NonBoss,6; }
+40003,ori,アーク強化+4,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,8; bonus2 bIgnoreDefRace,Rct_NonBoss,8; bonus2 bIgnoreMdefRace,Rct_Boss,8; bonus2 bIgnoreMdefRace,Rct_NonBoss,8; }
+40004,ori,アーク強化+5,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,10; bonus2 bIgnoreDefRace,Rct_NonBoss,10; bonus2 bIgnoreMdefRace,Rct_Boss,10; bonus2 bIgnoreMdefRace,Rct_NonBoss,10; }
+40005,ori,アーク強化+6,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,12; bonus2 bIgnoreDefRace,Rct_NonBoss,12; bonus2 bIgnoreMdefRace,Rct_Boss,12; bonus2 bIgnoreMdefRace,Rct_NonBoss,12; }
+40006,ori,アーク強化+7,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,14; bonus2 bIgnoreDefRace,Rct_NonBoss,14; bonus2 bIgnoreMdefRace,Rct_Boss,14; bonus2 bIgnoreMdefRace,Rct_NonBoss,14; }
+40007,ori,アーク強化+8,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,16; bonus2 bIgnoreDefRace,Rct_NonBoss,16; bonus2 bIgnoreMdefRace,Rct_Boss,16; bonus2 bIgnoreMdefRace,Rct_NonBoss,16; }
+40008,ori,アーク強化+9,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,18; bonus2 bIgnoreDefRace,Rct_NonBoss,18; bonus2 bIgnoreMdefRace,Rct_Boss,18; bonus2 bIgnoreMdefRace,Rct_NonBoss,18; }
+40009,ori,アーク強化+10,6,,,0,,,,,,,131072,,,,,{},{ bonus2 bIgnoreDefRace,Rct_Boss,20; bonus2 bIgnoreDefRace,Rct_NonBoss,20; bonus2 bIgnoreMdefRace,Rct_Boss,20; bonus2 bIgnoreMdefRace,Rct_NonBoss,20; }
+
+//アーク40100-40299
+//騎士系40100-40109予約
+40100,ori,アークRKルーン,5,,,0,,,1,0,130,2,131072,0,1,,0,{},{ skill 2010,5; skill 2017,1; skill 2014,1; skill 2018,1; skill 2013,1; if(getequipcardid(18,3)>=40000){ bonus2 bAddSkillDamageRate,2017,20; } if(getequipcardid(18,3)>=40003){ bonus2 bAddSkillDamageRate,2017,30; skill 2010,10; } }
+40101,ori,アークRK剣,5,,,0,,,1,0,130,2,131072,0,1,,0,{},{}
+40102,ori,アークRK竜,5,,,0,,,1,0,130,2,131072,0,1,,0,{},{}
+
+//クルセ40110-40119予約
+40110,ori,アークRG槍,5,,,0,,,1,0,16386,2,131072,0,1,,0,{},{}
+40111,ori,アークRG盾,5,,,0,,,1,0,16386,2,131072,0,1,,0,{},{}
+40112,ori,アークRG聖,5,,,0,,,1,0,16386,2,131072,0,1,,0,{},{}
+
+//プリ40120-40129予約
+40120,ori,アークAB癒,5,,,0,,,1,0,272,2,131072,0,1,,0,{},{}
+40121,ori,アークAB破魔,5,,,0,,,1,0,272,2,131072,0,1,,0,{},{}
+
+//モンク40130-40139予約
+40130,ori,アークSU地雷,5,,,0,,,1,0,32784,2,131072,0,1,,0,{},{}
+40131,ori,アークSU羅刹,5,,,0,,,1,0,32784,2,131072,0,1,,0,{},{}
+40132,ori,アークSU獅子,5,,,0,,,1,0,32784,2,131072,0,1,,0,{},{}
+
+//鍛冶40140-40149予約
+40140,ori,アークMC斧,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40141,ori,アークMCギア,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//ケミ40150-40159予約
+40150,ori,アークGNカート,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40151,ori,アークGN薬師,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40152,ori,アークGNプラント,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//弓40160-40169予約
+40160,ori,アークRA狼,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40161,ori,アークRA罠,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//ミンワン40170-40179
+40170,ori,アークMW楽器,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40171,ori,アークMW踊,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40172,ori,アークMW歌,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//アサ40180-40189予約
+40180,ori,アークGC毒,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40181,ori,アークGC暗,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//ローグ40190-40199
+40190,ori,アークSC影,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//wiz40200-40209
+40200,ori,アークWL嵐,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40201,ori,アークWL大地,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40202,ori,アークWLエーテル,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//セージ40210-40219
+40210,ori,アークSO元素,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+40211,ori,アークSO毒拳,5,,,0,,,1,0,1056,2,131072,0,1,,0,{},{}
+
+//オリジナル装備40300-41000
+//片手装備
+//ディーヴァ
+40300,ori,ディーヴァアックス,5,,5000,0,150,,1,3,1000333311,2,131072,4,1,25,1,{},{ bonus2 bAddSkillHealRate,70,200; }
+40301,ori,ディーヴァクロー,5,,5000,0,150,,1,3,32768,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40302,ori,ディーヴァスピア,5,,5000,200,150,,1,3,2,2,131072,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40303,ori,ディーヴァダガー,5,,5000,0,150:150,,1,3,545259619,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40304,ori,ディーヴァバイオリン,5,,5000,0,150:150,,1,3,524288,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40305,ori,ディーヴァファオックステイル,5,,5000,0,150:150,,1,3,1073741824,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40306,ori,ディーヴァブック,5,,5000,0,150:150,,1,3,33620224,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40307,ori,ディーヴァブレイド,5,,5000,0,150,,1,3,34,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40308,ori,ディーヴァブレイドウィップ,5,,5000,0,150:150,,1,3,1048576,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40309,ori,ディーヴァメイス,5,,5000,0,150,,1,3,33040,2,2,4,1,8,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,200*getequiprefinerycnt(); }
+40310,ori,ディーヴァワンド,5,,5000,0,50:150,,1,3,134217748,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+//ミラージュ
+40311,ori,ミラージュアックス,5,,5000,0,150,,1,3,32,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40312,ori,ミラージュクロー,5,,5000,0,150,,1,3,32768,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40313,ori,ミラージュスピア,5,,5000,200,150,,1,3,2,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40314,ori,ミラージュダガー,5,,5000,0,150:150,,1,3,536871011,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40315,ori,ミラージュバイオリン,5,,5000,0,150:150,,1,3,524288,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40316,ori,ミラージュフォックステイル,5,,5000,0,150:150,,1,3,1073741824,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40317,ori,ミラージュブック,5,,5000,0,150:150,,1,3,33620224,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40318,ori,ミラージュブレイド,5,,5000,0,150,,1,3,34,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40319,ori,ミラージュブレイドウィップ,5,,5000,0,150:150,,1,3,1048576,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40320,ori,ミラージュメイス,5,,5000,0,150:150,,1,3,16,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+40321,ori,ミラージュワンド,5,,5000,0,50:150,,1,3,134217748,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+//アビス
+40322,ori,アビスアックス,5,,5000,0,150,,1,3,32,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40323,ori,アビスクロー,5,,5000,0,150,,1,3,32768,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40324,ori,アビススピア,5,,5000,200,150,,1,3,2,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40325,ori,アビスダガー,5,,5000,0,150:150,,1,3,536871011,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40326,ori,アビスバイオリン,5,,5000,0,150:150,,1,3,524288,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40327,ori,アビスファックステイル,5,,5000,0,150:150,,1,3,1073741824,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40328,ori,アビスブック,5,,5000,0,150:150,,1,3,65792,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40329,ori,アビスブレイド,5,,5000,0,150:150,,1,3,34,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40330,ori,アビスブレイドウィップ,5,,5000,0,150:150,,1,3,1048576,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40331,ori,アビスメイス,5,,5000,0,150:150,,1,3,16,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+40332,ori,アビスワンド,5,,5000,0,50:150,,1,3,134217748,2,2,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+//両手装備
+//ディーヴァ
+40333,ori,ディーヴァカタール,5,,5000,0,200,,1,3,4096,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40334,ori,ディーヴァクレイモア,5,,5000,0,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40335,ori,ディーヴァスタッフ,5,,5000,0,50:250,,1,3,8388628,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+40336,ori,ディーヴァツーハンドアックス,5,,5000,0,230,,1,3,32,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40337,ori,ディーヴァ風魔手裏剣,5,,5000,0,200:200,,1,3,536870912,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40338,ori,ディーヴァランス,5,,5000,350,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+//ミラージュ
+40339,ori,ミラージュカタール,5,,5000,0,200,,1,3,4096,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40340,ori,ミラージュクレイモア,5,,5000,0,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40341,ori,ミラージュスタッフ,5,,5000,0,50:250,,1,3,8388628,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+40342,ori,ミラージュツーハンドアックス,5,,5000,0,230,,1,3,32,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40343,ori,ミラージュ風魔手裏剣,5,,5000,0,200:200,,1,3,536870912,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40344,ori,ミラージュランス,5,,5000,350,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+//アビス
+40345,ori,アビスカタール,5,,5000,0,200,,1,3,4096,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40346,ori,アビスクレイモア,5,,5000,0,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40347,ori,アビススタッフ,5,,5000,0,50:250,,1,3,8388628,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); callfunc "ItemdbAlmightyHeal",0x7F,2*getequiprefinerycnt(); }
+40348,ori,アビスツーハンドアックス,5,,5000,0,230,,1,3,32,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40349,ori,アビス風魔手裏剣,5,,5000,0,200:200,,1,3,536870912,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40350,ori,アビスランス,5,,5000,350,230,,1,3,2,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+//遠距離武器
+//ディーヴァ
+40351,ori,ディーヴァウィング,5,,5000,0,150:150,,1,3,131080,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40352,ori,ディーヴァガトリングガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40353,ori,ディーヴァグレネードガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40354,ori,ディーヴァショットガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40355,ori,ディーヴァハンドガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40356,ori,ディーヴァライフル,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+//ミラージュ
+40357,ori,ミラージュウィング,5,,5000,0,150:150,,1,3,131080,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40358,ori,ミラージュガトリングガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40359,ori,ミラージュグレネードガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40360,ori,ミラージュショットガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40361,ori,ミラージュハンドガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40362,ori,ミラージュライフル,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+//アビス
+40363,ori,アビスウィング,5,,5000,0,150:150,,1,3,131080,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40364,ori,アビスガトリングガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40365,ori,アビスグレネードガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40366,ori,アビスショットガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40367,ori,アビスハンドガン,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }
+40368,ori,アビスライフル,5,,5000,0,150,,1,3,268435456,2,32,4,1,25,1,{},{ bonus2 bAddEleMagicDamageRate,Ele_All,1*getequiprefinerycnt(); bonus bAddShortWeaponDamage,1*getequiprefinerycnt(); bonus bAddLongWeaponDamage,1*getequiprefinerycnt(); }

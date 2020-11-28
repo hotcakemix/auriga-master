@@ -1,0 +1,9 @@
+// GMとして認識するアカウントIDを設定
+// <account ID> <level>
+// <GMのアカウントID> <GMのレベル>
+// <first_account_ID>-<last_account_ID> <level>
+// <first_account_ID>~<last_account_ID> <level>
+// GMのレベルは0以下は無視で最大は99
+
+
+2000001 99

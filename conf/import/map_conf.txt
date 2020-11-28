@@ -1,0 +1,17 @@
+map_ip: 127.0.0.1
+
+
+npc: script/original/tensyoku.txt
+npc: script/original/arkEnchant.txt
+
+npc: script/original/dun/mob.txt
+
+
+
+map: chare1.gat
+map: chare2.gat
+map: chare3.gat
+map: chare4.gat
+map: chare5.gat
+map: chare6.gat
+map: chare7.gat

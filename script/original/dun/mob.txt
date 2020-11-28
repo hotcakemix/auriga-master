@@ -1,0 +1,12 @@
+chare1.gat,0,0,0,0	monster	ぽりん	2520,130,0,0,0
+chare1.gat,0,0,0,0	monster	どろっぷす	2521,100,0,0,0
+chare1.gat,0,0,0,0	monster	ぽぽりん	2522,80,0,0,0
+chare1.gat,0,0,0,0	monster	めたりん	2523,50,0,0,0
+chare1.gat,0,0,0,0	monster	ぽーりん	2524,50,0,0,0
+chare1.gat,0,0,0,0	monster	えっぐりん	2525,70,0,0,0
+
+chare2.gat,0,0,0,0	monster	ぞんび			2526,50,0,0,0
+chare2.gat,0,0,0,0	monster	すけるとん			2527,40,0,0,0
+chare2.gat,0,0,0,0	monster	アーチャースケルトン	2528,30,0,0,0
+chare2.gat,0,0,0,0	monster	えぎら			2529,30,0,0,0
+chare2.gat,0,0,0,0	monster	ふぁみりあー		2530,50,0,0,0

@@ -1,0 +1,7 @@
+memmgr: memory leaks found
+0001 : script.c line 404 size 10752
+0002 : npc.c line 2172 size 32768
+memmgr: memory leaks found
+0001 : grfio.c line 581 size 10722
+memmgr: memory leaks found
+0001 : grfio.c line 581 size 8624

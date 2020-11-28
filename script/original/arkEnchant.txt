@@ -1,0 +1,153 @@
+prontera.gat,138,225,5	script	アーク強化	618,{
+	callfunc "arkEnchant",0;
+	end;
+}
+
+function script arkEnchant {
+
+	//---------設定-----------------------------------------------------------------------------
+	if(!'MaxEnchantSlot){
+		set 'maxe,40009;		//最大強化
+	}
+	//--------ここまで---------------------------------------------------------------------------
+
+	//関数定義
+	function funcarkEnchant;
+	
+	set @name$,"["+strnpcinfo(0)+"]";
+	mes @name$;
+	mes "ここではアーク装備を";
+	mes "強化することができる。";
+	next;
+
+	switch(select("強化する","やめる")){
+		case 1:
+			funcarkEnchant;
+			close;
+		default:
+			mes @name$;
+			mes "さらばだ・・・";
+			close;
+	}
+	
+	//強化
+	function funcarkEnchant {
+		mes @name$;
+		mes "それでは強化するぞ";
+		next;
+		
+			
+		setarray @correct,18;
+		set '@position,select(getequipname(18));
+		set '@position,@correct['@position-1];
+			
+		if(!getequipisequiped('@position)){
+		mes @name$;
+		mes "何も装備してないぞ";
+		mes "装備してからまた来てくれ。";
+		close;
+		}
+	
+		if(getequipcardid('@position,3)=='maxe){
+			mes @name$;
+			mes "限界まで強化済みだ。";
+			mes "これ以上強化はできないぞ。";
+			close;
+		}
+		
+			//エンチャント数取得1回目の場合そのままエンチャント
+			if(getequipcardid('@position,3)==0){
+				mes @name$;
+				mes "1回目の強化には";
+				mes "アーキウムが^0000ff1^000000個と";
+				mes "^祝福石が^0000ff10^000000個必要だ";
+				mes "準備はいいか？";
+				next;
+					
+					if(select("エンチャントする","やめる") != 1){
+					mes @name$;
+					mes "じゃあな";
+					close;
+					}
+						
+					if(countitem(35013)<10){
+					mes @name$;
+					mes "祝福石が足りないぞ・・・";
+					mes "出直してきな。";
+					close;
+					}
+	
+					if(countitem(35010)<1){
+					mes @name$;
+					mes "アーキウムが足りないぞ・・・";
+					mes "出直してきな。";
+					close;
+					}
+					
+					delitem 35010,1;
+					delitem 35013,10;
+					getitem2 getequipid('@position),1,1,0,0,0,0,0,40000;
+					delequip '@position;
+					misceffect 610,0;
+			
+					mes @name$;
+					mes "成功したぞ";
+						
+			}else{
+					set '@card4,getequipcardid('@position,3);
+					setarray '@item[2],2,3,4,5,6,7,8,9,10;
+					setarray '@item2[2],20,30,40,50,60,70,80,90,100;
+					if('@card4){
+						switch('@card4) {
+						case 40000: set '@card,40001; set '@level,2; break;
+						case 40001: set '@card,40002; set '@level,3; break;
+						case 40002: set '@card,40003; set '@level,4; break;
+						case 40003: set '@card,40004; set '@level,5; break;
+						case 40004: set '@card,40005; set '@level,6; break;
+						case 40005: set '@card,40006; set '@level,7; break;
+						case 40006: set '@card,40007; set '@level,8; break;
+						case 40007: set '@card,40008; set '@level,9; break;
+						case 40008: set '@card,40009; set '@level,10; break;
+						}
+						
+					
+						mes @name$;
+						mes "^0000ff" +'@level+ "^000000回目の強化だな";
+						mes "アーキウムが^0000ff" +'@item['@level]+ "^000000個と";
+						mes "祝福石が^0000ff" +'@item2['@level]+ "^000000個必要だ";	
+						mes "準備はいいか？";
+						next;
+			
+						if(select("エンチャントする","やめる") != 1){
+						mes @name$;
+						mes "じゃあな";
+						close;
+						}
+		
+						if(countitem(35013)<'@item2['@level]){
+						mes @name$;
+						mes "祝福石が足りないぞ・・・";
+						mes "出直してきな。";
+						close;
+						}
+	
+						if(countitem(35010)<'@item['@level]){
+						mes @name$;
+						mes "アーキウムが足りないぞ・・・";
+						mes "出直してきな。";
+						close;
+						}
+						
+						delitem 35010, '@item['@level];
+						delitem 35013, '@item2['@level];
+						getitem2 getequipid('@position),1,1,0,0,0,0,0,'@card;
+						delequip '@position;
+						misceffect 610,0;
+						
+						mes @name$;
+					mes "成功したぞ";
+					}	
+			}
+	}
+}
+
